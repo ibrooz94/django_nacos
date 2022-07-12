@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NACOS, Fountain University">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title> NACOS - Fountain University</title>
+    <style>
+        .header {
+            background-image: none;
+            min-height: auto;
+        }
+
+        .header nav {
+            background: linear-gradient(10deg, var(--o), var(--t) );
+        }
+        nav{
+            padding: 6px 3%;
+        }
+
+        nav .logo {
+            width: 120px;
+            height: 55px;
+        }
+
+        .staff_exec {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .card p {
+            padding: 0;
+            line-height: normal;
+        }
+
+        /* @media (max-width: 700px) {
+            .card {
+                flex-direction: row;
+            }
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- header section -->
+    <div class="header">
+        <nav>
+            <a href="/"> <img src="graphics/nacos-logo.png" class="logo" alt="Nacos-Logo"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/coming_soon.html">Payments</a> </li>
+                    <li><a href="/course_materials.html">Course Material</a> </li>
+                    <li><a href="/gallery.html">Gallery</a> </li>
+                    <li><a href="/executives.html">Executives</a> </li>
+                    <li><a href="/contact_us.html">Contact Us</a> </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </div>
+    <div class="staff_exec">
+
+        <h1 class="title"> Staff Advisors</h1>
+        <div class="cards staff">
+
+            <div class="card">
+                <img src="graphics/placeholder.png" alt="">
+
+                <div class="info">
+                    <h5 class="title"> Dr Mutiat A. Ogunrinde </h5>
+                    <h6> Head of Department </h6>
+                    <p>+234 805 428 0030 </p>
+                    <p style="visibility:hidden;">+234 805 428 0030 </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="graphics/placeholder.png" alt="">
+                <div class="info">
+                    <h5 class="title"> Mrs Abdulsalami, Baseerat Adebola </h5>
+                    <h6>Advisor</h6> 
+                    <p> 08034300543 </p>
+                    <p style="line-height: normal;"> abdulsalami.baseerat@fuo.edu.ng </p>
+                </div>
+            </div>
+
+            <!-- <div class="card">
+                <img src="graphics/placeholder.png" alt="">
+                <div class="info">
+                    <h5 class="title"> Lawal, Aminat Olajumoke </h5>
+                    <h6>Advisor</h6> 
+                    <p> +234 8034982608</p>
+                    <p style="line-height: normal;"> lawal.aminat@fuo.edu.ng </p>
+                </div>
+            </div> -->
+
+
+        </div>
+
+        <h1 class="title"> Executives </h1>
+        <div class="cards">
+
+
+            <div class="card">
+                <img src="graphics/placeholder.png" alt="">
+                <div class="info">
+                    <h5 class="title"> Murainah Abubakri </h5>
+                    <h6> President</h6>
+                    <p> +234 807 450 9334 </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="graphics/exec/exec_2.jpeg" alt="">
+                <div class="info">
+                    <h5 class="title"> Kareem Abdulrauf </h5>
+                    <h6> Vice President</h6>
+                    <p> 09038240337 </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="graphics/exec/exec_3.jpeg" alt="">
+
+                <div class="info">
+                    <h5 class="title"> Oyekola Okikiola </h5>
+                    <h6> Welfare director </h6>
+                    <p> 0907 938 6758</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="graphics/exec/exec_4.jpeg" alt="">
+                <div class="info">
+                    <h5 class="title"> Popoola Hassan </h5>
+                    <h6>Sport director </h6>
+                    <p>+234 818 105 9902 </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="graphics/exec/exec_5.jpeg" alt="">
+                <div class="info">
+                    <h5 class="title"> Ogun Boluwatife O.</h5>
+                    <h6>PRO 1 </h6>
+                    <p>08123333375 </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="graphics/exec/exec_6.jpeg" alt="">
+                <div class="info">
+                    <h5 class="title"> Yoosuf Maryam Abisola </h5>
+                    <h6>Treasurer </h6>
+                    <p> 09022878732</p>
+                </div>
+            </div>
+
+            <!-- end cards -->
+        </div>
+    </div>
+    <div class="footer">
+        <div class="address">
+            <h6 class="title" style="text-align: center;"> Keep in Touch </h6>
+            <p>Software lab, ICT Building <br> Oke-Osun, P.M.B. 4491, <br>
+                Osogbo, Osun State,Nigeria </p> <br>
+            <p> <i class="fa-solid fa-phone"> </i> +234 812 3333 375 </p>
+            <p> <i class="fa-solid fa-at"></i> contact@nacosfuo.com.ng</p>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p> NACOS, Fountain University ©2022 </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <script>
+        // Toggle menu 
+        let navLinks = document.getElementById("nav-links");
+
+        function showMenu() {
+            navLinks.style.display = "block";
+        }
+        function hideMenu() {
+            navLinks.style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
