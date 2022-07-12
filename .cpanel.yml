@@ -2,5 +2,14 @@
 deployment:
       tasks:
         - export DEPLOYPATH=/home/nacosfuo/public_html
-        - /bin/cp -R src $DEPLOYPATH
-        
+        - /bin/cp -R graphics $DEPLOYPATH
+        - /bin/cp chip.jpg $DEPLOYPATH
+        - /bin/cp index.html $DEPLOYPATH
+        - /bin/cp coming_soon.html $DEPLOYPATH
+        - /bin/cp contact_us.html $DEPLOYPATH
+        - /bin/cp course_materials.html $DEPLOYPATH
+        - /bin/cp executives.html $DEPLOYPATH
+        - /bin/cp favicon.ico $DEPLOYPATH
+        - /bin/cp gallery.html $DEPLOYPATH
+        - /bin/cp read_more.html $DEPLOYPATH
+        - /bin/cp style.css $DEPLOYPATH
