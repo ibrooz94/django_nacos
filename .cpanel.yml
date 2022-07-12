@@ -1,0 +1,6 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/nacosfuo/public_html
+        - //bin/cp -R src $DEPLOYPATH
+        
