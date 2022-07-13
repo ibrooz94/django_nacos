@@ -125,16 +125,18 @@ nav .logo {
     font-size: 13px;
     background: transparent;
     position: relative;
-    margin-right: 130px;
+    margin: 10px;
 }
 
 .hero-btn:hover {
     border: 1px solid var(--s);
-    background: var(--m);
+    background: var(--o);
     transition: 0.8s;
     color: #fff;
 }
-
+.hero-btn.green{
+    background-color: var(--m);
+}
 nav .fa-solid {
     display: none;
 }
