@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NACOS, Fountain University">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .header {
+            background-image: none;
+            min-height: auto;
+        }
+
+        .header nav {
+            background: var(--m);
+            background: #01434e;
+        }
+
+        nav .logo {
+            width: 120px;
+            height: 55px;
+        }
+
+        .article {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            margin: auto;
+            /* text-align: center; */
+            padding-top: 20px;
+            text-align: left;
+        }
+
+        /* .article .img-container {
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        } */
+
+        .article img{
+            object-fit: contain;
+
+        }
+
+        .article p {
+            line-height: normal;
+            padding: 0;
+        }
+
+        .article p.author {
+            font-size: 12px;
+            font-weight: 100;
+            text-align: center;
+
+        }
+    </style>
+    <title> NACOS - Fountain University</title>
+</head>
+
+<body>
+    <!-- header section -->
+    <div class="header">
+        <nav>
+            <a href="/"> <img src="graphics/nacos-logo.png" class="logo" alt="Nacos-Logo"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/coming_soon.html">Payments</a> </li>
+                    <li><a href="/course_materials.html">Course Material</a> </li>
+                    <li><a href="/gallery.html">Gallery</a> </li>
+                    <li><a href="/executives.html">Executives</a> </li>
+                    <li><a href="/contact_us.html">Contact Us</a> </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </div>
+    <div class="article">
+        <h1 class="title"> NACOS CodeFest/Idea Pitching </h1>
+        <em>
+            <p class="author"> Author: AbdulBasit Akolade (BASHMAN)</p>
+        </em>
+        <!-- <img src="graphics/codefest_3.jpeg" class="img-fluid" alt=""> -->
+
+        <div class="img-container mb-3">
+            <img src="graphics/vote.jpg" class="img-fluid" alt="">
+        </div>
+        
+        <br>
+        <h6><strong>NACOS ELECTION </strong></h6> 
+        <p>The first ever online NACOS election in the history of Fountain University was held this session which most students of the department participated in the voting process.&nbsp;</p>
+        <p>This is done for continual of smooth representation without any pause or delay.&nbsp;</p>
+        <p>Below are the winners who will be the executives of the 2022/2023 Academic Session.&nbsp;</p>
+        <p><br></p>
+        <p>President&nbsp;</p>
+        <p>Oyekola Abubakri</p>
+        <p><br></p>
+        <p>Vice President&nbsp;</p>
+        <p>Ahmad Bayo Adewale&nbsp;</p>
+        <p><br></p>
+        <p>General secretary&nbsp;</p>
+        <p>Odetunde Iman Olasunkanmi</p>
+        <p><br></p>
+        <p>Assistant General secretary&nbsp;</p>
+        <p>Salami Feranmi&nbsp;</p>
+        <p><br></p>
+        <p>Treasurer&nbsp;</p>
+        <p>Yoosuf Maryam</p>
+        <p><br></p>
+        <p>Social director&nbsp;</p>
+        <p>Akinyera Fatimah&nbsp;</p>
+        <p><br></p>
+        <p>Welfare director&nbsp;</p>
+        <p>Adenekan Farouk</p>
+        <p><br></p>
+        <p>Assistant welfare director&nbsp;</p>
+        <p>Animashaun Taofeek&nbsp;</p>
+        <p><br></p>
+        <p>Sports director&nbsp;</p>
+        <p>Are Abdullahi</p>
+        <p><br></p>
+        <p>Financial secretary&nbsp;</p>
+        <p>Tijani Ayomide Jamiu</p>
+        <p><br></p>
+        <p>Assistant Financial secretary&nbsp;</p>
+        <p>Hammed Bolaji Bassit</p>
+        <p><br></p>
+        <p>PRO1&nbsp;</p>
+        <p>Alaje Johnson</p>
+        <p><br></p>
+        <p>We wish the new EXECUTIVES the best as they have promised to give us their best.&nbsp;</p>
+        <p><br></p>
+        <p>Regards.</p>
+
+        <div class="other">
+            <h6> Read More</h6>
+            <ul>
+                <li> <a href="/codefest.html"> CodeFest </a></li>
+                <li> <a href=""> ... </a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="address">
+            <h6 class="title" style="text-align: center;"> Keep in Touch </h6>
+            <p>Oke-Osun, P.M.B. 4491, <br>
+                Osogbo, Osun State,Nigeria </p>
+            <p> <i class="fa-solid fa-phone"> </i> </p>
+            <p> <i class="fa-solid fa-at"></i></p>
+        </div>
+        <!-- end footer  -->
+    </div>
+
+    <div class="copyright">
+        <p> NACOS, Fountain University ©2022 </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <script>
+        // Toggle menu 
+        let navLinks = document.getElementById("nav-links");
+
+        function showMenu() {
+            navLinks.style.display = "block";
+        }
+        function hideMenu() {
+            navLinks.style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
