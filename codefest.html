@@ -14,18 +14,22 @@
     <link rel="stylesheet" href="style.css">
     <style>
         .header {
-            background-image: none;
-            min-height: auto;
+            min-height: 15vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(167, 237, 198, 0.072)), url(graphics/fuo_gate_dark.jpg);
         }
 
-        .header nav {
-            background: var(--m);
-            background: #01434e;
+        .title-box {
+            width: 100%;
+            color: #fff;
+            position: absolute;
+            bottom: 20%;
+
+            text-align: center;
         }
 
-        nav .logo {
-            width: 120px;
-            height: 55px;
+        .title-box h1 {
+            font-weight: 700;
+            letter-spacing: 0.05em;
         }
 
         .article {
@@ -39,8 +43,16 @@
             text-align: left;
         }
 
-        .article img{
-            object-fit: contain;
+        .article .img-container {
+            align-self: center;
+            justify-self: center;
+        }
+
+
+        .article img {
+            /* object-fit: contain; */
+            width: 500px;
+            height: auto;
 
         }
 
@@ -88,8 +100,8 @@
         <div class="img-container mb-3">
             <img src="graphics/codefest_3.jpeg" class="img-fluid" alt="">
         </div>
-        
-        
+
+
 
         <h6>CODEFEST</h6>
         <p>
@@ -124,23 +136,44 @@
 
 
     <div class="footer">
-        <div class="address">
-            <h6 class="title" style="text-align: center;"> Keep in Touch </h6>
-            <p>Oke-Osun, P.M.B. 4491, <br>
-                Osogbo, Osun State,Nigeria </p>
-            <p> <i class="fa-solid fa-phone"> </i> </p>
-            <p> <i class="fa-solid fa-at"></i></p>
-        </div>
-        <!-- end footer  -->
-    </div>
 
-    <div class="copyright">
-        <p> NACOS, Fountain University ©2022 </p>
-        <div class="icons">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
+        <div class="contact">
+
+            <div class="get-in-touch child">
+                <h4 class="title" style="text-align: center;"> Keep in Touch </h4>
+                <p>ICT Building, Fountain University <br> Oke-Osun, P.M.B. 4491, <br>
+                    Osogbo, Osun State,Nigeria </p>
+                <p> <i class="fa-solid fa-phone"> </i> +234 812 3333 375 </p>
+                <p> <i class="fa-solid fa-at"></i> contact@nacosfuo.com.ng</p>
+            </div>
+
+            <div class="quick-links child">
+                <h4 class="title" style="text-align: center;"> Quick Links </h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/coming_soon.html">Payments</a> </li>
+                    <li><a href="/course_materials.html">Course Material</a> </li>
+                    <li><a href="/gallery.html">Gallery</a> </li>
+                    <li><a href="/executives.html">Executives</a> </li>
+                    <li><a href="/contact_us.html">Contact Us</a> </li>
+                </ul>
+            </div>
+
+            <div class="child">
+                <a href="/"> <img style="width: 300px; height: auto" src="graphics/nacos-logo.png" class="logo"
+                        alt="Nacos-Logo"></a>
+
+                <!-- <div class="icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div> -->
+            </div>
+
         </div>
+
+        <!-- <hr style="color:white;" />
+        <p> NACOS, Fountain University ©2022 </p> -->
     </div>
 
 

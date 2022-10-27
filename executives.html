@@ -15,20 +15,25 @@
     <title> NACOS - Fountain University</title>
     <style>
         .header {
-            background-image: none;
-            min-height: auto;
+            min-height: 30vh;
+            background-image: linear-gradient(rgba(27, 210, 39, 0.127), rgba(8, 69, 36, 0.226)) , url(graphics/fuo_gate_dark.jpg);
+            /* background-image: linear-gradient(rgba(27, 210, 39, 0.127), rgba(8, 69, 36, 0.226)); */
+            background-color: rgb(201, 250, 201);
+            background-size: cover;
         }
 
-        .header nav {
-            background: linear-gradient(10deg, var(--o), var(--t) );
-        }
-        nav{
-            padding: 6px 3%;
+        .title-box {
+            width: 100%;
+            color: #fff;
+            position: absolute;
+            bottom: 20%;
+
+            text-align: center;
         }
 
-        nav .logo {
-            width: 120px;
-            height: 55px;
+        .title-box h1 {
+            font-weight: 700;
+            letter-spacing: 0.05em;
         }
 
         .staff_exec {
@@ -39,8 +44,12 @@
         }
 
         .card p {
-            padding: 0;
-            line-height: normal;
+            margin-bottom: 0;
+        }
+
+        .card img {
+            image-rendering: crisp-edges;
+            height: auto;
         }
 
         /* @media (max-width: 700px) {
@@ -69,14 +78,20 @@
             </div>
             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>
+
+        <div class="title-box">
+            <h1> Executives & Staff </h1>
+        </div>
+
     </div>
+
     <div class="staff_exec">
 
         <h1 class="title"> Staff Advisors</h1>
         <div class="cards staff">
 
             <div class="card">
-                <img src="graphics/placeholder.png" alt="">
+                <img src="graphics/default_avatar.png" alt="">
 
                 <div class="info">
                     <h5 class="title"> Dr Mutiat A. Ogunrinde </h5>
@@ -87,10 +102,10 @@
             </div>
 
             <div class="card">
-                <img src="graphics/placeholder.png" alt="">
+                <img src="graphics/default_avatar.png" alt="">
                 <div class="info">
                     <h5 class="title"> Mrs Abdulsalami, Baseerat Adebola </h5>
-                    <h6>Advisor</h6> 
+                    <h6>Advisor</h6>
                     <p> 08034300543 </p>
                     <p style="line-height: normal;"> abdulsalami.baseerat@fuo.edu.ng </p>
                 </div>
@@ -114,11 +129,12 @@
 
 
             <div class="card">
-                <img src="graphics/placeholder.png" alt="">
+                <img src="graphics/exec22/oyekola.jpg" alt="">
                 <div class="info">
-                    <h5 class="title"> Murainah Abubakri </h5>
+                    <h5 class="title"> Oyekola Okikiola Abubakar </h5>
                     <h6> President</h6>
-                    <p> +234 807 450 9334 </p>
+                    <p> 09079386758 </p>
+                    <p> koniyekola@gmail.com </p>
                 </div>
             </div>
             <div class="card">
@@ -130,33 +146,38 @@
                 </div>
             </div>
             <div class="card">
-                <img src="graphics/exec/exec_3.jpeg" alt="">
+                <img src="graphics/exec22/adenekan_farouq.jpg" alt="">
 
                 <div class="info">
-                    <h5 class="title"> Oyekola Okikiola </h5>
+                    <h5 class="title"> Adenekan Farouq </h5>
                     <h6> Welfare director </h6>
-                    <p> 0907 938 6758</p>
+                    <p> 07013951840</p>
+                    <p> farougadenekan@gmail.com </p>
                 </div>
             </div>
+
+
             <div class="card">
-                <img src="graphics/exec/exec_4.jpeg" alt="">
+                <img src="graphics/exec22/odetunde_iman.jpg" alt="">
                 <div class="info">
-                    <h5 class="title"> Popoola Hassan </h5>
-                    <h6>Sport director </h6>
-                    <p>+234 818 105 9902 </p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="graphics/exec/exec_5.jpeg" alt="">
-                <div class="info">
-                    <h5 class="title"> Ogun Boluwatife O.</h5>
-                    <h6>PRO 1 </h6>
-                    <p>08123333375 </p>
+                    <h5 class="title">Odetunde Iman Olasunkanmi </h5>
+                    <h6>General Secretary </h6>
+                    <p>07066354888</p>
                 </div>
             </div>
 
             <div class="card">
-                <img src="graphics/exec/exec_6.jpeg" alt="">
+                <img src="graphics/exec22/tijani_ayomide.jpg" alt="">
+                <div class="info">
+                    <h5 class="title">Tijani Ayomide </h5>
+                    <h6> Financial Secretary </h6>
+                    <p> 07038267495 </p>
+                    <p> ayomidetujani06@gmail.com </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="graphics/exec22/yoosuf_maryam.jpg" alt="">
                 <div class="info">
                     <h5 class="title"> Yoosuf Maryam Abisola </h5>
                     <h6>Treasurer </h6>
@@ -164,26 +185,87 @@
                 </div>
             </div>
 
+            <div class="card">
+                <img src="graphics/exec22/alaje_johnson.jpg" alt="">
+                <div class="info">
+                    <h5 class="title"> Alaje Johnson I.</h5>
+                    <h6>PRO 1 </h6>
+                    <p>08168886362</p>
+                    <p>alajejohnson.d@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="graphics/exec22/abdullahi_adeniyi.jpg" alt="">
+                <div class="info">
+                    <h5 class="title">Are Abdulallahi Adeniyi.</h5>
+                    <h6>Sport Director</h6>
+                    <p>08155487094</p>
+                    <p>areabdullahi01@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="graphics/exec22/akinyera_fatimah.jpg" alt="">
+                <div class="info">
+                    <h5 class="title">Akinyera fatimah </h5>
+                    <h6> Social Director </h6>
+                    <p>08154087683</p>
+                    <p>Akinyerafatimah@gmail.com</p>
+                </div>
+            </div>
+
+            <!-- <div class="card">
+                <img src="graphics/exec22" alt="">
+                <div class="info">
+                    <h5 class="title"></h5>
+                    <h6></h6>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div> -->
             <!-- end cards -->
         </div>
     </div>
     <div class="footer">
-        <div class="address">
-            <h6 class="title" style="text-align: center;"> Keep in Touch </h6>
-            <p>Software lab, ICT Building <br> Oke-Osun, P.M.B. 4491, <br>
-                Osogbo, Osun State,Nigeria </p> <br>
-            <p> <i class="fa-solid fa-phone"> </i> +234 812 3333 375 </p>
-            <p> <i class="fa-solid fa-at"></i> contact@nacosfuo.com.ng</p>
-        </div>
-    </div>
 
-    <div class="copyright">
-        <p> NACOS, Fountain University ©2022 </p>
-        <div class="icons">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
+        <div class="contact">
+
+            <div class="get-in-touch child">
+                <h4 class="title" style="text-align: center;"> Keep in Touch </h4>
+                <p>ICT Building, Fountain University <br> Oke-Osun, P.M.B. 4491, <br>
+                    Osogbo, Osun State,Nigeria </p>
+                <p> <i class="fa-solid fa-phone"> </i> +234 812 3333 375 </p>
+                <p> <i class="fa-solid fa-at"></i> contact@nacosfuo.com.ng</p>
+            </div>
+
+            <div class="quick-links child">
+                <h4 class="title" style="text-align: center;"> Quick Links </h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/coming_soon.html">Payments</a> </li>
+                    <li><a href="/course_materials.html">Course Material</a> </li>
+                    <li><a href="/gallery.html">Gallery</a> </li>
+                    <li><a href="/executives.html">Executives</a> </li>
+                    <li><a href="/contact_us.html">Contact Us</a> </li>
+                </ul>
+            </div>
+
+            <div class="child">
+                <a href="/"> <img style="width: 300px; height: auto" src="graphics/nacos-logo.png" class="logo"
+                        alt="Nacos-Logo"></a>
+
+                <!-- <div class="icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div> -->
+            </div>
+
         </div>
+
+        <!-- <hr style="color:white;" />
+        <p> NACOS, Fountain University ©2022 </p> -->
     </div>
 
 

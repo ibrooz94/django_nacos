@@ -14,20 +14,22 @@
     <link rel="stylesheet" href="style.css">
     <style>
         .header {
-            background-image: none;
-            min-height: auto;
+            min-height: 35vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(167, 237, 198, 0.072)), url(graphics/fuo_gate_dark.jpg);
         }
 
-        .header nav {
-            background: linear-gradient(10deg, var(--o), var(--t) );
-        }
-        nav{
-            padding: 6px 3%;
+        .title-box {
+            width: 100%;
+            color: #fff;
+            position: absolute;
+            bottom: 20%;
+
+            text-align: center;
         }
 
-        nav .logo {
-            width: 120px;
-            height: 55px;
+        .title-box h1 {
+            font-weight: 700;
+            letter-spacing: 0.05em;
         }
 
         .contact-form {
@@ -56,20 +58,24 @@
                     <li><a href="/">Home</a></li>
                     <li><a href="/coming_soon.html">Payments</a> </li>
                     <li><a href="/coming_soon.html">Course Material</a> </li>
-                    <!-- <li><a href="">Gallery</a> </li> -->
+                    <li><a href="">Gallery</a> </li>
                     <li><a href="/executives.html">Executives</a> </li>
                     <li><a href="/contact_us.html">Contact Us</a> </li>
                 </ul>
             </div>
             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>
+        <div class="title-box">
+            <h1> Contact Us </h1>
+
+        </div>
     </div>
     <div class="contact-form">
-        <h1 class="title"> Contact Us </h1>
-        <form>
+        <form class="mt-5 mb-5">
             <div class="mb-3">
                 <label for="exampleInputName" class="form-label">Name</label>
-                <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp" value="" required>
+                <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp" value=""
+                    required>
             </div>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -82,32 +88,53 @@
             </div>
             <div class="mb-3">
                 <label for="validationTextarea" class="form-label">Message</label>
-                <textarea class="form-control" id="validationTextarea" placeholder="Enter message here"
-                rows="4" cols="50" required></textarea>
+                <textarea class="form-control" id="validationTextarea" placeholder="Enter message here" rows="4"
+                    cols="50" required></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
 
     <div class="footer">
-        <div class="address">
-            <h6 class="title" style="text-align: center;"> Keep in Touch </h6>
-            <p>Software lab, ICT Building <br> Oke-Osun, P.M.B. 4491, <br>
-                Osogbo, Osun State,Nigeria </p>
-            <p> <i class="fa-solid fa-phone"> </i> +234 812 3333 375 </p>
-            <p> <i class="fa-solid fa-at"></i> contact@nacosfuo.com.ng</p>
-        </div>
-    </div>
 
-    <div class="copyright">
-        <p> NACOS, Fountain University ©2022 </p>
-        <div class="icons">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-        </div>
-    </div>
+        <div class="contact">
 
+            <div class="get-in-touch child">
+                <h4 class="title" style="text-align: center;"> Keep in Touch </h4>
+                <p>ICT Building, Fountain University <br> Oke-Osun, P.M.B. 4491, <br>
+                    Osogbo, Osun State,Nigeria </p>
+                <p> <i class="fa-solid fa-phone"> </i> +234 812 3333 375 </p>
+                <p> <i class="fa-solid fa-at"></i> contact@nacosfuo.com.ng</p>
+            </div>
+
+            <div class="quick-links child">
+                <h4 class="title" style="text-align: center;"> Quick Links </h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/coming_soon.html">Payments</a> </li>
+                    <li><a href="/course_materials.html">Course Material</a> </li>
+                    <li><a href="/gallery.html">Gallery</a> </li>
+                    <li><a href="/executives.html">Executives</a> </li>
+                    <li><a href="/contact_us.html">Contact Us</a> </li>
+                </ul>
+            </div>
+
+            <div class="child">
+                <a href="/"> <img style="width: 300px; height: auto" src="graphics/nacos-logo.png" class="logo"
+                        alt="Nacos-Logo"></a>
+
+                <!-- <div class="icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div> -->
+            </div>
+
+        </div>
+
+        <!-- <hr style="color:white;" />
+        <p> NACOS, Fountain University ©2022 </p> -->
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
         integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"

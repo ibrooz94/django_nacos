@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css">
     <title> NACOS - Fountain University</title>
     <style>
-        .header {
+        /* .header {
             background-image: none;
             min-height: auto;
         }
@@ -30,6 +30,23 @@
         nav .logo {
             width: 120px;
             height: 55px;
+        } */
+
+        .header {
+            min-height: 35vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(167, 237, 198, 0.072)), url(graphics/fuo_gate_dark.jpg);
+        }
+        .title-box {
+            width: 100%;
+            color: #fff;
+            position: absolute;
+            bottom: 20%;
+ 
+            text-align: center;
+        }
+        .title-box h1{
+            font-weight: 700;
+            letter-spacing: 0.05em;
         }
 
         .materials {
@@ -80,10 +97,14 @@
             </div>
             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>
+        <div class="title-box">
+            
+            <h1> Course Materials </h1>
+        </div>
     </div>
 
     <div class="materials">
-        <h1 class="title"> Course Materials </h1>
+        
 
         <ul class="nav nav-pills mb-3 danger" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
@@ -116,7 +137,7 @@
                 </ul>
             </div>
             <!-- 200 LEVEL  -->
-            <div class="tab-pane fade show active" id="pills-200" role="tabpanel" aria-labelledby="pills-200-tab">
+            <div class="tab-pane fade" id="pills-200" role="tabpanel" aria-labelledby="pills-200-tab">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
                         <h3> <a href="https://drive.google.com/drive/folders/111hLhiZPBYq1UqGqBafXJ0KFSV6G8MNb">Notes </a> </h3>
@@ -161,22 +182,43 @@
     </div>
 
     <div class="footer">
-        <div class="address">
-            <h6 class="title" style="text-align: center;"> Keep in Touch </h6>
-            <p>Software lab, ICT Building <br> Oke-Osun, P.M.B. 4491, <br>
-                Osogbo, Osun State,Nigeria </p> <br>
-            <p> <i class="fa-solid fa-phone"> </i> +234 812 3333 375 </p>
-            <p> <i class="fa-solid fa-at"></i> contact@nacosfuo.com.ng</p>
-        </div>
-    </div>
 
-    <div class="copyright">
-        <p> NACOS, Fountain University ©2022 </p>
-        <div class="icons">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
+        <div class="contact">
+
+            <div class="get-in-touch child">
+                <h4 class="title" style="text-align: center;"> Keep in Touch </h4>
+                <p>ICT Building, Fountain University <br> Oke-Osun, P.M.B. 4491, <br>
+                    Osogbo, Osun State,Nigeria </p>
+                <p> <i class="fa-solid fa-phone"> </i> +234 812 3333 375 </p>
+                <p> <i class="fa-solid fa-at"></i> contact@nacosfuo.com.ng</p>
+            </div>
+
+            <div class="quick-links child">
+                <h4 class="title" style="text-align: center;"> Quick Links </h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/coming_soon.html">Payments</a> </li>
+                    <li><a href="/course_materials.html">Course Material</a> </li>
+                    <li><a href="/gallery.html">Gallery</a> </li>
+                    <li><a href="/executives.html">Executives</a> </li>
+                    <li><a href="/contact_us.html">Contact Us</a> </li>
+                </ul>
+            </div>
+
+            <div class="child">
+                <a href="/"> <img style="width: 300px; height: auto" src="graphics/nacos-logo.png" class="logo" alt="Nacos-Logo"></a>
+
+                <!-- <div class="icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div> -->
+            </div>
+
         </div>
+
+        <!-- <hr style="color:white;" />
+        <p> NACOS, Fountain University ©2022 </p> -->
     </div>
 
 
